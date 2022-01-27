@@ -5,8 +5,8 @@
 
 Put your program description here.
 
-The objective of the game will circle around the fact that Mr. Fabroa (The Computer Science Teacher) must help a student who is struggling while coding. 
-In the first level, Mr. Fabroa has to dodge obstacles, and beat Tier 1 enemies to get to the other side, like in Super Mario Bros.
+The objective of the game will circle around the fact that Mr. Fabroa (The Computer Science Teacher) must help a student who is struggling while coding. (Just Like Us....)
+In the first level, Mr. Fabroa has to dodge obstacles, and beat Tier 1 enemies to get to the other side, like the goombas from Super Mario Bros.
 The second Level is the same thing, but harder, using both Tier 1 and 2 enemies.
 The third Level is the same but with mazes, Tier 1, 2, and 3 enemies.
 Boss Fight will include moving obstacles, all of the 3 Tiered enemies. The goal is to survive and kill all of the enemies to eliminate distractions and problems from the student while they are coding. There will be 4 stages. The first stage will involve dodging moving obstacles, and the student's face will look very sad. The second stage will have the student less sad, where you will have to fight Tier 1 enemies and dodge stuff. And so on and so forth. There is also a Tier 4 enemy that you will have to avoid in the fourth stage.
