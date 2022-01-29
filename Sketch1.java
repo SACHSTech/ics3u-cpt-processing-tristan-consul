@@ -1,7 +1,5 @@
 import processing.core.PApplet;
 import processing.core.PImage;
-import TileMap.TileMap;
-import java.util.ArrayList;
 
 public class Sketch1 extends PApplet {
 
@@ -27,8 +25,6 @@ public class Sketch1 extends PApplet {
 
   PImage[] Fabroa = new PImage[10];
   PImage Aeugh;
-
-  private ArrayList<Boss> Bosses;
   
   public void setup() {
     // Loads Character Files
@@ -41,6 +37,8 @@ public class Sketch1 extends PApplet {
     Fabroa[6] = loadImage("Images/Mr._Fabroa2.png");
 
     Aeugh = loadImage("Images/Aeugh.png");
+
+    
 
   }
 
@@ -186,67 +184,5 @@ public class Sketch1 extends PApplet {
 
     public int counter;
     public double counter2 = 4;
-
-    public class Boss() {
-      
-      protected int health;
-      protected int Maxhealth;
-      protected boolean dead;
-      protected int damage;
-
-      protected boolean flinching;
-      protected long flinchTimer;
-
-      public Boss(TileMap tm) {
-        super(tm);
-
-      }
-
-      public boolean Boss() { 
-        return dead; 
-        } 
-
-      public int getDamage() { 
-        return damage; 
-        }
-
-      public void hit (int damage) {
-        if (dead || flinching) {
-          return;
-          health -= damage;
-
-        }
-
-        if (health < 0) {
-          health = 0;
-
-        }
-
-        if (health == 0) {
-          dead = true;
-          flinching = true;
-          flinchTimer = System.nanoTime();
-
-        }
-
-      }
-  
-
-      public class Eric extends Boss {
-        
-        public Eric(TileMap tm) {
-          super(tm);
-
-          int moveSpeed = 10;
-          int maxSpeed = 10;
-          int fallspeed = 10;
-
-          health = maxHealth = -10;
-
-        }
-
-      }
-
-    }
 
 }
